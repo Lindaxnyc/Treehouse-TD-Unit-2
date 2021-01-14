@@ -1,0 +1,112 @@
+/* --------------------------
+  Base Styles
+--------------------------- */
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+/* * { 
+  box-sizing: border-box; 
+}
+
+body {
+  color: #797e83;
+  font-size: 16px;
+	margin: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5; 
+}
+*/
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  padding-top: 1em;
+}
+.name {
+  font-size: 2em;
+  color: black;
+  font-weight: 400;
+  padding: .2em;
+  border-bottom: 10px;
+  text-align: center;
+}
+.nav {
+  margin-top: 1.25em;
+}
+.nav a {
+  display: block;
+  color: black;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  padding: .2em;
+  border-bottom: 10px;
+}
+
+.img {
+  align-self: center;
+}
+
+.nav a:hover {
+  color:cornflowerblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+}
+
+.port-section {
+  display: flex;
+  flex-direction: column;
+}
+.port-image {
+  height: 12em;
+  width: 22em;
+  padding: 4px;
+  align-self: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (min-width: 769px) {
+.main-header,
+.mav {
+  height: 200px;
+  justify-content: flex-end;
+}
+.name {
+  width: 140px;
+}
+.nav {
+ flex-direction: row;
+ justify-content: space-between;
+}
+.nav a {
+  border-bottom-color: transparent;
+ }
+}
+
+@media (max-width:1025px) {
+  flex-direction: row; 
+}
+
+    
