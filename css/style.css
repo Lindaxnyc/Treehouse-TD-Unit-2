@@ -1,5 +1,6 @@
 
  /* Global Layout Set-up */
+ /*  */
 * { 
   box-sizing: border-box;
 }
@@ -197,7 +198,7 @@ p {
     .banner p {
       font-size: 6m;
       text-align: left;
-      margin-left: 4%;
+      margin-left: 2.75%;
       margin-right: 4%;
     }
     .pro-img {
