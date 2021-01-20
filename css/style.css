@@ -19,26 +19,19 @@
     flex-direction: column;
     background: rgb(246, 246, 246);  
   }
-  .main-header {
-    padding-top: 0%;
-  }
  h1 {
   display: block;
   color: black;
   text-align: center;
-  border: 1px solid   rgb(246, 246, 246);  
   text-decoration: none;
-  padding: 0 0 .5em 0;
-  margin-bottom: .2em;
+  padding: 0 0 0 1em;
  }
  .nav,
  li {
   margin: 0;
   padding: 0;
 }
- .nav {
-   padding-bottom: 10%;
- }
+
  .nav a {
   display: block;
   color: black;
@@ -48,7 +41,7 @@
   background-color: white;
   border: 1px solid  rgb(246, 246, 246);   
   text-decoration: none;
-  padding: .5em;
+  padding: 0 .5em 0;
   margin-bottom: .2em; 
  }
  ul {
@@ -119,11 +112,14 @@ p {
   @media screen and (min-width: 768px) {
     .main-header { 
       justify-content: space-between;
+      padding-top: 6%;
     }
     .nav {
-      margin-bottom: 60px;
       flex-direction: row;
       justify-content: space-between;
+      padding-bottom: 4%;
+      padding-left: 13em;
+      padding-right: 13em;
     }
     .nav a {
       font-size: 1.50em;
@@ -135,6 +131,7 @@ p {
     .banner {
       display: flex;
       flex-direction: row-reverse;
+      padding-top: 2em;
       border-bottom: 4em solid rgb(246, 246, 246); 
     }
     .banner p {
