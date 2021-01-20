@@ -1,58 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Unit 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="normalize.css">
 </head>
-<body>
-  
-  <header class="main-header">
-    <ul class="nav">
-        <li class="name">Student</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-  </header>
-  <main>
-    <section>
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/responsive-layout-profile.png" alt="Student Profile Picture" class="img">
-    </section> 
-    
-    <section class="port-section">
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/portfolio-1.png" alt="Portfolio Picture 1" class="port-image">
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/portfolio-2.png" alt="Portfolio Picture 2" class="port-image">
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/portfolio-3.png" alt="Portfolio Picture 3" class="port-image">
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/portfolio-4.png" alt="Portfolio Picture 4" class="port-image">
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/portfolio-5.png" alt="Portfolio Picture 5" class="port-image">
-        <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development at tree house and am excited to put all my skills</p>
-        <img src="img/portfolio-6.png" alt="Portfolio Picture 6" class="port-image">
-    </section> 
 
-    <section class="contact">
-        <h1>Contact</h1>
+<body>
+  <div>
+   <header class="main-header">
+    <h1>Student Name</h1>
+     <ul class="nav">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">CONTACT</a></li>
+     </ul>
+  </header>
+ </div>
+ <main>
+   <div class="banner">
+      <img src="img/responsive-layout-profile.png" alt="Student Profile Picture" class="pro-image" class="responsive">
+      <p>Hi! I'm a front end web developer who loves responsive design and css. I recently finished learning front end web development and am excited to put all my skills to use.</p>
+   </div>
+   <section>
+     <h2 class="title">Portfolio</h2>
+  </section>
+
+<div class="row">
+        <div class="column">
+          <img src="img/portfolio-1.png" alt="portfolio image 1" class="center">
+          <h2>Marketing Page</h2>
+          <p>This project shows the front page of a marketing website meant for a specific business.</p>
+      
+          <img src="img/portfolio-3.png" alt="portfolio image 3" class="center">
+          <h2>Travel App</h2>
+          <p>This project compares travel times based on different transportation methods.</p>
+          
+          <img src="img/portfolio-5.png" alt="portfolio image 5" class="center">
+          <h2>Photo Gallery</h2>
+          <p>This project shows recent pics from a trip to the viewer and allows them to easily navigate through photos.</p>
+         
+        </div>
+        <div class="column">
+          <img src="img/portfolio-2.png" alt="portfolio image 2" class="center">
+          <h2>Search Page</h2>
+          <p>This project searches through a spacific database to find information that the user is trying to look up.</p>
+          
+          <img src="img/portfolio-4.png" alt="portfolio image 4" class="center">
+          <h2>Map of Favorite Spots</h2>
+          <p>This project uses mapping apis to plot points for your favorite spots for a do-it-yourself walking tour.</p>
+          
+          <img src="img/portfolio-6.png" alt="portfolio image 6" class="center">
+          <h2>Calculator</h2>
+          <p>Someone can enter the numbers they want, press the big blue button and get the result.</p>
+           
+        </div>
+        </div>
+ 
+      <section class="contact">
+        <h2 class="title">Contact</h2>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you.</p>
         <h3>Phone 1(111)222-3333</h3>
         <h3>Email @yoursite.com</h3>
-    </section> 
+      </section>
   </main>
 
-  <footer class="main-footer">
-    <ul class="nav2">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+  <footer>
+    <ul class="main-footer">
+      <li>Student Name</li>
+      <li><a href="#">BACK TO TOP</a></li>
+    </ul>
   </footer>
+  <footer class=f2>
+    <ul class="footer">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </footer>
+
+
 </body>
 </html>
+
+
+
 
