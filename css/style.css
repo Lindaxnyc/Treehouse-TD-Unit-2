@@ -83,7 +83,6 @@ h2 {
   background:  rgb(246, 246, 246);   
 }
 .main-footer {
-  border-top: .1em solid  rgb(241, 241, 241);
   padding: 30px 6px 30px 6px;
 }
 .main-footer a {
@@ -144,9 +143,8 @@ h2 {
     }
     .main-footer {
       margin-top: 0;
+      border-top: 1px solid rgb(212, 210, 210);
     }
-
-
   }
 
 /* Media Queries 768 */
