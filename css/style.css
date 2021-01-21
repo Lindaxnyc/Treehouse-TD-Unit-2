@@ -111,9 +111,16 @@ p {
       background-color: white;
       border: 1px solid  rgb(246, 246, 246);   
       text-decoration: none;
-      padding: 0 .5em 0;
+      padding: 0.2em .5em;
       margin-bottom: .2em; 
      }
+    .pro-image {
+      align-self: center;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      width: 80%;
+    }
   }
 
 /* Media Queries 768 */
