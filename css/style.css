@@ -36,8 +36,6 @@
   font-size: 1.50em;
   font-weight: 700;
   text-align: center;
-  background-color: white;
-  border: 1px solid  rgb(246, 246, 246);   
   text-decoration: none;
   padding: 0 .5em 0;
   margin-bottom: .2em; 
@@ -110,7 +108,13 @@ p {
   --------------------------- */
 
   /* Media Queries 320 */
-  @media (min-width: 320px) {}
+  @media (min-width: 320px) {
+    .nav a {
+      background-color: white;
+      border: 1px solid  rgb(246, 246, 246);   
+      text-decoration: none;
+     }
+  }
 
 /* Media Queries 768 */
   @media (min-width: 768px) {
@@ -172,12 +176,12 @@ p {
     margin-top: 8px;
     vertical-align: middle;
    }
-  .contact p {
-  display: flex;
-  text-align: center;
-  padding-left: 10em;
-  padding-right: 10em;
-  }
+   .contact p {
+    display: flex;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+   }
   }
 
 /* Media Queries 1024 */
