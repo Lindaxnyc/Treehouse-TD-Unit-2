@@ -53,6 +53,10 @@
   max-width:100%;
   height:auto; 
 }
+.banner p {
+  display: block;
+  text-align: center;
+}
 h2 {
   display: block;
   text-align: center;
@@ -63,12 +67,6 @@ h2 {
   max-width:100%;
   height:auto;
   background-color:white;
-}
-p {
-  display: block;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .contact {
   text-align: center;
@@ -85,6 +83,7 @@ p {
   background:  rgb(246, 246, 246);   
 }
 .main-footer {
+  margin-top: 0;
   border-top: .1em solid  rgb(241, 241, 241);
   padding: 30px 6px 30px 6px;
 }
@@ -117,10 +116,35 @@ p {
     .pro-image {
       align-self: center;
       margin-top: 2em;
-      margin-bottom: 2em;
+      margin-bottom: 0.1em;
       margin-left: 2em;
       width: 80%;
     }
+    .banner p {
+      margin-left: 3%;
+      margin-right: 3%;
+      padding-bottom: 3em;
+      text-align: center;
+    }
+    .title {
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+    .row {
+      margin-bottom: 3em;
+    }
+    .column p {
+      text-align: center;   
+    }
+    .contact-heading {
+      margin-top: 8%;
+      margin-bottom: 1em;
+    }
+    .contact {
+      padding-bottom: 3em;
+    }
+
+
   }
 
 /* Media Queries 768 */
