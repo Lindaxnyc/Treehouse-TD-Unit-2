@@ -4,26 +4,40 @@
 * { 
   box-sizing: border-box;
   }
-
+  #wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+  }
 /* Body Styles */
   body {
     font-family: 'Hind', sans-serif;
     font-size: 100%;
-    color: #222;  
+    color: #222; 
+    background-color: rgb(246, 246, 246); ; 
   }
 
 /* Header Styles */
-  .main-header,
+
+  .main-nav,
   .nav {
     display: flex;
     flex-direction: column;
     background: rgb(246, 246, 246);  
   }
- h1 {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 0 0 0 1em;
+ .ul {
+    display: block;
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+ }
+ .name {
+    display: block;
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
  }
  .nav,
  li {
@@ -38,9 +52,7 @@
   text-align: center;
   text-decoration: none;
  }
- ul {
-  list-style-type: none;
- }
+ 
  .nav a:hover {
   color: rgb(30, 116, 156);
  }
@@ -70,7 +82,6 @@ h2 {
 }
 .contact {
   text-align: center;
-  padding: 1.75em 0 0 0;
   background: rgb(246, 246, 246);     
 }
 
@@ -96,6 +107,11 @@ h2 {
   font-weight: bold;
   text-decoration: none;
 }
+.main-footer li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 
   /* --------------------------
@@ -104,12 +120,22 @@ h2 {
 
   /* Media Queries 320 */
   @media (min-width: 320px) {
-    .nav a {
+
+  .main-nav,
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background: rgb(246, 246, 246);  
+  }
+     li {
       background-color: white;
       border: 1px solid  rgb(246, 246, 246);   
       text-decoration: none;
       padding: 0.2em .5em;
       margin-bottom: .2em; 
+     }
+     .name {
+       background-color: rgb(246, 246, 246); 
      }
     .pro-image {
       align-self: center;
@@ -144,17 +170,18 @@ h2 {
     .main-footer {
       margin-top: 0;
       border-top: 1px solid rgb(212, 210, 210);
-    }
+    }  
   }
 
-/* Media Queries 768 */
+
+/* Media Queries 768 
   @media (min-width: 768px) {
-    .main-header { 
+    .main-nav { 
       justify-content: space-between;
       padding-top: 6%;
     }
     .nav {
-      display: box;
+      display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding-bottom: 4%;
@@ -188,10 +215,9 @@ h2 {
     }
 
    .banner img {
-      width: 45%;
+      width: 50%;
       height: auto;
       margin-left: auto;
-      margin-right: 5%; 
     }
    .row {
       display: flex;
@@ -214,6 +240,7 @@ h2 {
     padding-right: 10em;
    }
   }
+  */
 
 /* Media Queries 1024 */
   @media (min-width: 1024px) {
@@ -285,4 +312,3 @@ h2 {
       clear: both;
     }
   } 
-  */
