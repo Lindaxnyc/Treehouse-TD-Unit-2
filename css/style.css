@@ -21,8 +21,6 @@
 
   .main-nav,
   .nav {
-    display: flex;
-    flex-direction: column;
     background: rgb(246, 246, 246);  
   }
  .ul {
@@ -41,8 +39,10 @@
  }
  .nav,
  li {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  margin: 0;
 }
  .nav a {
   display: block;
@@ -119,7 +119,7 @@ h2 {
   --------------------------- */
 
   /* Media Queries 320 */
-  @media (min-width: 320px) {
+  @media (min-width: 320px) and (max-width: 600px){
 
   .main-nav,
   .nav {
@@ -174,30 +174,26 @@ h2 {
   }
 
 
-/* Media Queries 768 
+/* /* Media Queries 768  */
   @media (min-width: 768px) {
-    .main-nav { 
-      justify-content: space-between;
-      padding-top: 6%;
-    }
-    .nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-bottom: 4%;
-      padding-left: 13em;
-      padding-right: 13em;
-    }
-    .nav a {
-      font-size: 1.50em;
-      font-weight: 700;
-      text-align: center;  
-      text-decoration: none;
+
+  .main-nav,
+  .nav {
+    display: flex;
+    flex-direction: row; 
+    padding: 1em 1em 1em 1em;
+  }
+  .nav li {
+    padding: 0px 30px 30px 10px;
+  }
+    
+  .name {
+    margin-top: 0px;
+  }
+     li {
+      background-color:rgb(246, 246, 246);
      }
-     .nav a {
-      padding: 0 .5em 0;
-      margin-bottom: .2em; 
-     }
+
     .banner {
       display: flex;
       flex-direction: row-reverse;
@@ -210,9 +206,7 @@ h2 {
       margin-right: 5%;
       margin-top: -1mm;
     }
-    .nav a {
-      background-color: rgb(246, 246, 246);
-    }
+ 
 
    .banner img {
       width: 50%;
